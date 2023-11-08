@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- normalize file css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+    <!-- normal file css -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>template 2</title>
+</head>
+
+<body>
+  <!--start setting box -->
+    <div class="setting-box">
+
+      <i class="fa-solid fa-gear icon-setting"></i>
+
+      <div class="setting-container">
+        <h3>settings</h3>
+      </div>
+
+      <div class="setting-color">
+        
+        <div class="option-box">
+          <h4>COLORS</h4>
+          <ul class="colors-list">
+            <li class="active" data-color= "#19c8fa"></li>
+            <li data-color="#ffa500"></li>
+            <li data-color="#008000"></li>
+            <li data-color="#ffc0cb"></li>
+          </ul>
+        </div>
+
+        <div class="option-box">
+          <h4>random background</h4>
+          <div class="random-background">
+            <span class=" active yes" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  <!-- end setting box -->
+
+  <!--start header-->
+    <div class="header">
+        <div class="container">
+
+            <a href="#" class="logo"><i class="fa-solid fa-code"></i></a>
+
+            <nav>
+                <i class="fas fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="" class="active">Home</a></li>
+                    <li><a href="">guidance</a></li>
+                    <li><a href="">our-design</a></li>
+                    <li><a href="">languages</a></li>
+                    <li><a href="">testimonials</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+                <div class="form">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+    <!--end header-->
+
+    <!--start landing -->
+    <div class="landing">
+
+        <img src="images/shuffle01.jpg" class="sliderImage" alt="" srcset="">
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <div class="content">
+                <h2>Hello Programmers!<br>
+                    We are here to help you.</h2>
+                <p>
+                    WITHOUT COMMITMENT YOU'LL NEVER START, BUT MORE IMPORTANTLY, WITHOUT CONSISTENCY, YOU'LL NEVER FINISH
+                    Commitment is a promise to devote yourself to someone or something. To be consistency you need to 
+                    know what you have to do every day with creating a shedhule for your self
+                  </p>
+            </div>
+        </div>
+
+        <i class="fas fa-angle-left change-background fa-2x" onclick="prev()"></i>
+        <i class="fas fa-angle-right change-background fa-2x" onclick="next()"></i>
+
+        <ul class="bullet">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+        </ul>
+    </div>
+    <!--end landing-->
+
+    <!-- start services -->
+    <div class="services">
+
+        <div class="container">
+
+            <div class="main-heading">
+                <h2>GUIDANCE</h2>
+                <p>Here we offre to you the best way to start learning programmimg from zero to hero, but this does 
+                  not prevent you from making your own way.
+                </p>
+            </div>
+
+            <div class="services-container">
+
+                <div class="srv-box">
+                    <i class="fa-solid fa-sitemap fa-3x" style="color: #32c0b4;"></i>
+                    <div class="text">
+                        <h3>ALGORITHM & DATA STRUCTURES</h3>
+                        <p>
+                          A data structure is a method of organizing data in a virtual system.
+                          Think of sequences of numbers, or tables of data: these are both well-defined data structures.
+                          An algorithm is a sequence of steps executed by a computer that takes an input and transforms it into a target output.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="srv-box">
+                  <i class="fa-brands fa-html5 fa-3x" style="color: #fc5a03;"></i>
+                    <div class="text">
+                        <h3>HTML</h3>
+                        <p>
+                          HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages. It is one of the most basic building blocks of every website, so it's crucial to learn if you want to have a career in web development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="srv-box">
+                  <i class="fa-brands fa-css3-alt fa-3x" style="color: #058df5;"></i>
+                    <div class="text">
+                        <h3>CSS</h3>
+                        <p>
+                          CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="srv-box">
+                  <i class="fa-brands fa-js fa-3x" style="color: #f2d202;"></i>
+                    <div class="text">
+                        <h3>JAVASCRIPT</h3>
+                        <p>
+                          JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- end services -->
+
+    <!-- start design -->
+    <div class="design">
+
+        <div class="image">
+            <img src="./images/mobile.png" alt="mobile">
+        </div>
+
+        <div class="text">
+            <h2>our design comes with ...</h2>
+            <ul>
+                <li>Responsive Design</li>
+                <li>Modern And Clean Design</li>
+                <li>Clean Code</li>
+                <li>Browser Friendly</li>
+            </ul>
+        </div>
+    </div>
+    <!-- end design -->
+
+    <!-- start portfolio -->
+    <div class="portfolio">
+
+        <div class="contaniner">
+            <div class="main-heading">
+                <h2>LANGUAGES</h2>
+                <p>Front end languages and back end languages are important to you as a Full-stack-developper </p>
+            </div>
+        </div>
+
+        <ul class="shuffle">
+            <li class="active">All</li>
+            <li>AI</li>
+            <li>Front</li>
+            <li>Back</li>
+            <li>Database</li>
+        </ul>
+
+        <div class="imgs-container">
+            <div class="box">
+              <img src="images/API.png" alt="">
+              <div class="caption">
+                <h4>API</h4>
+                <p>acronym for app prog interface</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/typescript.jpg" alt="">
+              <div class="caption">
+                <h4>TYPESCRIPT</h4>
+                <p>strongly typed programming language</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/react.png" alt="">
+              <div class="caption">
+                <h4>REACTJS</h4>
+                <p> front-end library</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/angular.jpg" alt="">
+              <div class="caption">
+                <h4>ANGULAR</h4>
+                <p>framework for building single-page client app</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/nodejs.jpeg" alt="">
+              <div class="caption">
+                <h4>NODEJS</h4>
+                <p>JavaScript runtime built on Chrome's</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/mongo.png" alt="">
+              <div class="caption">
+                <h4>MONGO-DB</h4>
+                <p>document database with the scalability and flexibility</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/database.jpg" alt="">
+              <div class="caption">
+                <h4>DATABASE</h4>
+                <p>organized collection of structured information</p>
+              </div>
+            </div>
+            <div class="box">
+              <img src="images/AI.jpg" alt="">
+              <div class="caption">
+                <h4>AI</h4>
+                <p> machine's ability to perform a task that you give</p>
+              </div>
+            </div>
+          </div>
+
+    </div>
+    <!-- end portfolio -->
+
+    <!-- start stats -->
+    <div class="stats">
+        <div class="container">
+          <div class="box">
+            <i class="fa-solid fa-user"></i>
+            <div class="number">1.236</div>
+            <p>Users</p>
+          </div>
+          <div class="box">
+            <i class="far fa-folder"></i>
+            <div class="number">256</div>
+            <p>Completed Projects</p>
+          </div>
+          <div class="box">
+            <i class="far fa-envelope"></i>
+            <div class="number">1,743</div>
+            <p>Mail Sent</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-trophy"></i>
+            <div class="number">17</div>
+            <p>Awards Received</p>
+          </div>
+        </div>
+    </div>
+    <!--end stats-->
+    
+    <!-- start skills -->
+    <div class="skills">
+      <div class="container">
+        
+        <!-- start testimonials -->
+        <div class="testimonials">
+          <h3>TESTIMONIALS</h2>
+          <p>We present to you some developpers they can help you in our field as much as possible</p>
+          <div class="content">
+            <img src="./images/skills-01.jpg" alt="">
+            <div class="text">
+              <p>He is currently specialized in the front end developper and works in the field of react-js and node-js</p>
+              <span>Mouemen Rafei</span>
+            </div>
+          </div>
+          <div class="content">
+            <img src="./images/skills-02.jpg" alt="">
+            <div class="text">
+              <p>He is currently specialized in the back end developper and works in the field of Docker and Servers</p>
+              <span>Mohammad Sarmout</span>
+            </div>
+          </div>
+          <ul class="bullet">
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+          </ul>
+        </div>
+        <!-- end testimonials -->
+
+        <!-- start our-skills -->
+        <div class="our-skills">
+          <h3>SKILLS</h2>
+          <p>Here we present to you the rate of skills for Mouemen and Mohammad </p>
+          <div class="box-rate">
+            <h4>HTML & CSS</h4>
+            <div class="rate">
+              <span style="width: 95%;"></span>
+            </div>
+          </div>
+          <div class="box-rate">
+            <h4>Javascript</h4>
+            <div class="rate">
+              <span style="width: 85%;"></span>
+            </div>
+          </div>
+          <div class="box-rate">
+            <h4>React-js</h4>
+            <div class="rate">
+              <span style="width: 80%;"></span>
+            </div>
+          </div> 
+          <div class="box-rate">
+            <h4>Docker</h4>
+            <div class="rate">
+              <span style="width: 90%;"></span>
+            </div>
+          </div>                                          
+        </div>
+        <!-- end our-skills -->
+      </div>
+    </div>
+    <!-- end skills -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
